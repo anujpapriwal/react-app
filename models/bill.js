@@ -22,6 +22,10 @@ const BillSchema = new Schema({
   note: {
     type: String,
     default: 'Empty'
+  },
+  img: {
+    data: Buffer,
+    contentType: String
   }
 })
 
